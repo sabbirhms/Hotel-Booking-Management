@@ -1,0 +1,343 @@
+
+.navbar{
+   margin-top: 10px;
+   text-decoration: none;
+
+
+}
+
+#color{
+    
+    padding: 10px 20px;
+    
+}
+
+.signup{
+
+    margin-top: 50%;
+}
+
+.col{
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    
+    float: right;
+    list-style-type: none;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+ul  li{
+    
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+  
+    color:green;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    
+}
+
+
+ul li a:hover{
+    background-color:red;
+    color: white;
+}
+ul li.active a{
+    background-color:red;
+    color: white;
+}
+
+.title{
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title a{
+    text-decoration: none;
+    color:rgb(4, 4, 4);
+    font-size: 20px;
+    font-weight: bolder;
+   background-color: rgb(223, 233, 28);
+    padding: 10px 30px;
+}
+
+.title a:hover{
+
+    color: black;
+    background-color: rgb(211,211,211);
+    text-decoration: none;
+}
+/*
+a:hover{
+
+    background-color:green;
+    color: white;
+
+} */
+
+#input1{
+    padding: 10px 80px;
+   }
+
+   #input2{
+    padding: 10px 80px;
+   }
+
+   #input3{
+    padding: 10px 80px;
+   }
+
+   #input4{
+    padding: 10px 80px;
+   }
+
+   button{
+    padding: 10px 50px;
+   font-weight: bold;
+   }
+
+   
+   .input{
+    margin-top: 30px;
+    margin-left: -30px;
+    padding-right: 5cm;
+}
+
+.link a:hover{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+
+.gallery{
+
+    margin: 10px 50px;
+    margin-left: 70px;
+
+}
+
+
+.gallery img{
+width: 300px;
+padding: 5px;
+filter: grayscale(100%);
+transition: .061s;
+
+}
+
+.gallery img:hover{
+filter: grayscale(0%);
+transform: scale(1.1);
+
+}
+
+/*rooms*/
+
+.container{
+    width: 100%;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .box{
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    
+   
+   margin: 100px;
+     box-sizing: border-box;
+     display: inline-block;
+}
+
+.container .box .imgBox{
+
+    position: relative;
+}
+
+.container .box .imgBox img {
+
+    max-width: 100%;
+    transition: transform 1s;
+}
+
+.container .box:hover .imgBox img {
+transform: scale(2.3);
+
+}
+
+.container .box .details{
+  
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(197, 193, 193, 0.5); 
+    transform: scaleY(0);
+    transition: transform .5s;
+   
+}
+
+.container .box:hover .details{
+    transform: scaleY(1);
+}
+
+.container .box .details .content {
+
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 10px 80px;
+    color: blue;
+    justify-content: center;
+}
+
+.container .box .details .content h1{
+   
+   
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    
+    color: rgb(0, 0, 0);
+}
+
+.container .box .details .content p{
+    margin: 10px 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.container .box .details .content a{
+   
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background:red;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.col-sm-12 .content{
+
+padding: 0 150px;
+    
+}
+
+.col-sm-12 .content input {
+
+    width: 300px;
+    height: 30px;
+}
+
+.col-sm-12 .content select {
+
+    width: 300px;
+    height: 30px;
+}
+
+
+
+
+
+.col-sm-3 a:hover{
+    background-color:red;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.4 ease;
+}
+
+
+.col-sm-3 a.active {
+    background-color:red;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+}
+
+.col-sm-9 input {
+
+    width: 400px;
+    height: 50px;
+    padding: 0 10px;
+}
+.project-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
